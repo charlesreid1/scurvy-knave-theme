@@ -1,0 +1,25 @@
+
+
+
+h1 {
+    color: ;
+}
+a {
+  color: #00aced;
+}
+a:hover,
+a:focus {
+  color: #0084b4;
+}
+.btn-default {
+  border: 1px solid #00aced;
+  color: #00aced;
+  background-color: transparent;
+}
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid #00aced;
+  outline: none;
+  color: black;
+  background-color: #00aced;
+}
