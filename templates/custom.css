@@ -1,0 +1,7 @@
+{% if H1_COLOR is none %}
+    {% set H1_COLOR='#42DCA3' %}
+{% endif %}
+
+h1 {
+    color: {{ H1_COLOR }};
+}
