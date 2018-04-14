@@ -130,4 +130,12 @@ HTML files into `output/`.
 
 
 
+## Custom Colors
+
+This theme currrently defines three custom colors:
+
+* `H1COLOR` - color of title text
+* `ACOLOR` - color of links and buttons
+* `AHOVERCOLOR` - color of links and buttons when hovering over them
+
 
