@@ -1,7 +1,35 @@
-{% if H1_COLOR is none %}
-    {% set H1_COLOR='#42DCA3' %}
+{% if H1COLOR is none %}
+    {% set H1COLOR='#EEE' %}
+{% endif %}
+
+{% if ACOLOR is none %}
+    {% set ACOLOR='#42DCA3' %}
+{% endif %}
+
+{% if AHOVERCOLOR is none %}
+    {% set AHOVERCOLOR='#1D9B6C' %}
 {% endif %}
 
 h1 {
     color: {{ H1_COLOR }};
 }
+a {
+  color: {{ ACOLOR }};
+}
+a:hover,
+a:focus {
+  color: {{ AHOVERCOLOR }};
+}
+.btn-default {
+  border: 1px solid {{ ACOLOR }};
+  color: {{ ACOLOR }};
+  background-color: transparent;
+}
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid {{ ACOLOR }};
+  outline: none;
+  color: black;
+  background-color: {{ ACOLOR }};
+}
+
