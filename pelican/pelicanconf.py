@@ -21,9 +21,10 @@ THEME = 'scurvy-knave-theme'
 # Pelican is designed for files => pages.
 # Use variables (below) to set pieces of pages.
 
-TOPHEADCOLOR = "#c0deed"
-ACOLOR = "#00aced"
-AHOVERCOLOR = "#0084b4"
+INTROCOLOR  = "#fff"
+ACOLOR      = "#edac00"
+AHOVERCOLOR = "#b48400"
+BRIGHTCOLOR = "#f1ca1d"
 TEMPLATE_PAGES = {
     'custom.css' : 'custom.css'
 }
