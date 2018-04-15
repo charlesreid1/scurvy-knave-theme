@@ -6,7 +6,7 @@ AUTHOR = u'charlesreid1'
 
 SITENAME = u'scurvy knave pelican theme'
 
-SITEURL = ''
+SITEURL = ''#/scurvy-knave-theme'
 
 PATH = 'content'
 
@@ -32,39 +32,65 @@ TEMPLATE_PAGES = {
 
 # description appears between <p> tags, so don't include them
 
-SITE_TITLE = "bots.charlesreid1.com"
-SITE_DESCRIPTION = "a subdomain for charlesreid1 bots"
+SITE_TITLE = "scurvy knave pelican theme"
+SITE_DESCRIPTION = "a simple single-color single-page theme for pelican"
 
 # ---
 
 # include <p> tags in the description
 
-ABOUT_TITLE = "about bots.charlesreid1.com"
+ABOUT_TITLE = "about this theme"
 
 ABOUT_DESCRIPTION = """
+<p><a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave on github</a></p>
 
-<p><b>What is a bot?</b></p>
+<p>&nbsp;</p>
 
-<p>Broadly, a bot is an autonomous entity that executes a program.<br />
-The bots on this site are principally Twitter bot flocks.<br />
-Also see <a href="https://twitter.com/horse_ebooks">@horse_ebooks</a>.</p>
+<p><b>What is the scurvy knave?</b></p>
 
-<p><b>What is a bot flock?</b></p>
+<p>Being a get-off-my-lawn technology user, I got tired of fussing around
+setting up the latest hipster javascript library invented by a fixie-riding
+developer with nerd glasses at their favorite muffin shop.</p>
 
-<p>A bot flock is a group of Twitter bots that perform a related task,
-access related data, or otherwise share some structure.<br />
-See below for examples of Twitter bot flocks.</p>
+<p>I wanted a dead-simple, single-page, single-color theme where the user can expend
+as little effort as possible (with the bare minimum being, defining a name and a sentence
+for each of the four sections on the page).
 
-<p><b>Where can I find the bots?</b></p>
+<p>This theme is so simple, you barely even have to write HTML.
+You just populate a few variables that are shimmed into a 
+nice pretty page.</p>
 
-<p>Each bot has a home page on bots.charlesreid1.com; see below for links.</p>
+<p>&nbsp;</p>
+
+<p><b>What about colors? Are there pretty pastel colors like my favorite hipster javascript library?</b></p>
+
+<p>Colors? You want colors? What is this, a flower shop??</p>
+
+<p>This theme has one color. One. You get to 
+pick one color, and you live with it for the rest of the 
+short, four-section page.</p>
+
+<p>&nbsp;</p>
+
+<p><b>::starts crying:: I want my colors!!!</b></p>
+
+<p>Okay, fine, you can have a custom CSS file to define
+everything you could possibly ever want. I'll call it...
+I don't know... <code>custom.css</code>
+</p>
+
+<p>&nbsp;</p>
+
+<p><b>::sniffles:: Custom javascript too?</b></p>
+
+<p>Don't push it.</p>
 """
 
 # ---
 
 # include <p> tags in the description
 
-LINKS_TITLE = "links on bots.charlesreid1.com"
+LINKS_TITLE = "links section"
 
 LINKS_DESCRIPTION = """
 <p>Kadishtu n'ghft gof'nn fm'latgh Azathoth lloig chtenff hafh'drn shoggyar.</p>
@@ -72,38 +98,43 @@ LINKS_DESCRIPTION = """
 
 FLOCK_URL = "https://twitter.com/charlesreid1/lists/miltonbotflock"
 
-LINKS_BUTTONS = """<p><a href="%s" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> Bot Flock</a></p>
-<p>
-<a href="https://twitter.com/milton_book1"  class="btn btn-default btn-lg">@milton_book1</a> &nbsp; &nbsp; &nbsp; 
-<a href="https://twitter.com/milton_book2"  class="btn btn-default btn-lg">@milton_book2</a> &nbsp; &nbsp; &nbsp; 
-<a href="https://twitter.com/milton_book3"  class="btn btn-default btn-lg">@milton_book3</a>
-</p><p>
-<a href="https://twitter.com/milton_book4"  class="btn btn-default btn-lg">@milton_book4</a> &nbsp; &nbsp; &nbsp; 
-<a href="https://twitter.com/milton_book5"  class="btn btn-default btn-lg">@milton_book5</a> &nbsp; &nbsp; &nbsp; 
-<a href="https://twitter.com/milton_book6"  class="btn btn-default btn-lg">@milton_book6</a>
-</p><p>
-<a href="https://twitter.com/milton_book7"  class="btn btn-default btn-lg">@milton_book7</a> &nbsp; &nbsp; &nbsp; 
-<a href="https://twitter.com/milton_book8"  class="btn btn-default btn-lg">@milton_book8</a> &nbsp; &nbsp; &nbsp; 
-<a href="https://twitter.com/milton_book9"  class="btn btn-default btn-lg">@milton_book9</a>
-</p><p>
-<a href="https://twitter.com/milton_book10" class="btn btn-default btn-lg">@milton_book10</a> &nbsp; &nbsp; &nbsp; 
-<a href="https://twitter.com/milton_book11" class="btn btn-default btn-lg">@milton_book11</a> &nbsp; &nbsp; &nbsp; 
-<a href="https://twitter.com/milton_book12" class="btn btn-default btn-lg">@milton_book12</a>
-</p>
-"""%(FLOCK_URL)
+LINKS_BUTTONS = """<p>
+<a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave on github</a>
+</p>"""
 
 
 # ---
 
 
-CONTACT_TITLE = "Contact @charlesreid1"
+CONTACT_TITLE = "Author"
 
-CONTACT_DESCRIPTION = """<p>Get in touch!</p>
-<p><a href="mailto:charles@charlesreid1.com">charles__at__charlesreid1.com</a></p>
+CONTACT_DESCRIPTION = """
+<p><b>who is responsible for this abomination?
+</b><br />
+This theme is authored by @charlesreid1. Find charles on <a href="https://github.com/charlesreid1">github</a>
+or on <a href="https://charlesereid1.com">charlesreid1.com</a>.
+You can also find the <a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave pelican theme on github</a></p>.
+
+<p><b>are you confused by this very simple theme and desperate for unpaid intensive one-on-one tech support?
+</b><br /> 
+<a href="https://github.com/charlesreid1/scurvy-knave-theme/issues">open an issue on github</a></p>
+
+<p><b>do you love this theme like Michael Cohen loves Donald Trump?
+</b><br />
+<a href="https://charlesreid1.com/contact">hire me</a> to build on it.</p>
+
+<p><b>are you benevolent and rich?
+</b><br />
+<a href="https://charlesreid1.com/money">give me moneydollars</a> to keep building
+<a href="https://charlesreid1.com/bots">weird stuff</a>.
+</p>
+
+<p>&nbsp;</p>
 """
 
 
 # --------------8<---------------------
+
 
 DISPLAY_PAGES_ON_MENU = False
 FEED_ALL_ATOM = None
@@ -112,3 +143,4 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 DEFAULT_PAGINATION = False
+
