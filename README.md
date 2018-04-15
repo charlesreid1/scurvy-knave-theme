@@ -15,6 +15,17 @@ will remain completely empty, and all site
 content will be defined in the theme 
 and configured in the `pelicanconf.py`.
 
+# Branches
+
+This repo has three disparate branches:
+
+* `master` - the branch you are looking at now. This contains the files for the actual theme.
+* `source` - a branch containing a working pelican site that uses this theme. used to generate `gh-pages` branch.
+* `gh-pages` - a branch containing static HTML content to be served up via Github Pages
+
+The `gh-pages` branch can be viewed live at 
+[https://charlesreid1.github.io/scurvy-knave-theme](https://charlesreid1.github.io/scurvy-knave-theme).
+
 # Installation
 
 To install:
