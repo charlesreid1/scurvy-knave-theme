@@ -86,7 +86,7 @@ I don't know... <code>custom.css</code>
 
 <p><b>::sniffles:: Custom javascript too?</b></p>
 
-<p>Don't push it.</p>
+<p>Fork yourself.</p>
 """
 
 # ---
@@ -98,7 +98,9 @@ LINKS_SHORT = "Links"
 LINKS_TITLE = "links section"
 
 LINKS_DESCRIPTION = """
-<p>Kadishtu n'ghft gof'nn fm'latgh Azathoth lloig chtenff hafh'drn shoggyar.</p>
+<p>Kadishtu n'ghft gof'nn fm'latgh Azathoth lloig chtenff hafh'drn shoggyar.
+</p>
+
 <p>Find the <a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave on github</a>.
 </p>
 """
@@ -130,8 +132,8 @@ You can also find the <a href="https://github.com/charlesreid1/scurvy-knave-them
 
 <p><b>are you benevolent and rich?
 </b><br />
-<a href="https://charlesreid1.com/money">give me moneydollars</a> to keep building
-<a href="https://charlesreid1.com/bots">weird stuff</a>.
+<a href="https://charlesreid1.com/contact">give me moneydollars</a> to keep building
+<a href="https://bots.charlesreid1.com">weird stuff</a>.
 </p>
 
 <p>&nbsp;</p>
