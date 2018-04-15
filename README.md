@@ -149,4 +149,68 @@ This theme currrently defines three custom colors:
 * `ACOLOR` - color of links and buttons
 * `AHOVERCOLOR` - color of links and buttons when hovering over them
 
+## Useful Color Schema
+
+Twitter blue:
+
+```
+ACOLOR      = "#00aced"
+AHOVERCOLOR = "#0084b4"
+BRIGHTCOLOR = "#1dcaff"
+```
+
+Nginx green:
+
+```
+ACOLOR      = "#aced00"
+AHOVERCOLOR = "#84b400"
+BRIGHTCOLOR = "#caf1d"
+```
+
+Perky magenta:
+
+```
+ACOLOR      = "#ed00ac"
+AHOVERCOLOR = "#b40084"
+BRIGHTCOLOR = "#ff1dca"
+```
+
+Seafoam green:
+
+```
+ACOLOR      = "#00edac"
+AHOVERCOLOR = "#00b484"
+BRIGHTCOLOR = "#1df1ca"
+```
+
+Sunflower yellow:
+
+```
+ACOLOR      = "#edac00"
+AHOVERCOLOR = "#b48400"
+BRIGHTCOLOR = "#f1ca1d"
+```
+
+Purple mountains' majesty:
+
+```
+ACOLOR      = "#ac00ed"
+AHOVERCOLOR = "#8400b4"
+BRIGHTCOLOR = "#ca1df1"
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

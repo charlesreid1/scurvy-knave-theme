@@ -1,5 +1,5 @@
-{% if H1COLOR is none %}
-    {% set H1COLOR='#EEE' %}
+{% if INTROCOLOR is none %}
+    {% set INTROCOLOR='#EEE' %}
 {% endif %}
 
 {% if ACOLOR is none %}
@@ -10,8 +10,8 @@
     {% set AHOVERCOLOR='#1D9B6C' %}
 {% endif %}
 
-h1 {
-    color: {{ H1_COLOR }};
+.scuryv-knave-intro {
+    color: {{ INTROCOLOR }};
 }
 a {
   color: {{ ACOLOR }};
