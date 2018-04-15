@@ -6,7 +6,7 @@ AUTHOR = u'charlesreid1'
 
 SITENAME = u'scurvy knave pelican theme'
 
-SITEURL = ''#/scurvy-knave-theme'
+SITEURL = '/scurvy-knave-theme'
 
 PATH = 'content'
 
@@ -94,13 +94,9 @@ LINKS_TITLE = "links section"
 
 LINKS_DESCRIPTION = """
 <p>Kadishtu n'ghft gof'nn fm'latgh Azathoth lloig chtenff hafh'drn shoggyar.</p>
-<p>Ya nog Azathoth ah R'lyeh Chaugnar hupadgh kn'a hlirgh Nyarlathotep.</p>"""
-
-FLOCK_URL = "https://twitter.com/charlesreid1/lists/miltonbotflock"
-
-LINKS_BUTTONS = """<p>
-<a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave on github</a>
-</p>"""
+<p>Find the <a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave on github</a>.
+</p>
+"""
 
 
 # ---
@@ -109,8 +105,8 @@ LINKS_BUTTONS = """<p>
 CONTACT_TITLE = "Author"
 
 CONTACT_DESCRIPTION = """
-<p><b>who is responsible for this abomination?
-</b><br />
+<p><b>who is responsible for this abomination?</b>
+<br />
 This theme is authored by @charlesreid1. Find charles on <a href="https://github.com/charlesreid1">github</a>
 or on <a href="https://charlesereid1.com">charlesreid1.com</a>.
 You can also find the <a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave pelican theme on github</a></p>.
