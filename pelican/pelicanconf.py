@@ -40,6 +40,8 @@ SITE_DESCRIPTION = "a simple single-color single-page theme for pelican"
 
 # include <p> tags in the description
 
+ABOUT_SHORT = "About"
+
 ABOUT_TITLE = "about this theme"
 
 ABOUT_DESCRIPTION = """
@@ -91,6 +93,8 @@ I don't know... <code>custom.css</code>
 
 # include <p> tags in the description
 
+LINKS_SHORT = "Links"
+
 LINKS_TITLE = "links section"
 
 LINKS_DESCRIPTION = """
@@ -103,6 +107,8 @@ LINKS_DESCRIPTION = """
 # ---
 
 
+CONTACT_SHORT = "Author"
+
 CONTACT_TITLE = "Author"
 
 CONTACT_DESCRIPTION = """
@@ -110,7 +116,8 @@ CONTACT_DESCRIPTION = """
 <br />
 This theme is authored by @charlesreid1. Find charles on <a href="https://github.com/charlesreid1">github</a>
 or on <a href="https://charlesereid1.com">charlesreid1.com</a>.
-You can also find the <a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave pelican theme on github</a></p>.
+You can also find the <a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave pelican theme on github</a>.
+</p>
 
 <p><b>are you confused by this very simple theme and desperate for unpaid intensive one-on-one tech support?
 </b><br /> 
@@ -118,7 +125,8 @@ You can also find the <a href="https://github.com/charlesreid1/scurvy-knave-them
 
 <p><b>do you love this theme like Michael Cohen loves Donald Trump?
 </b><br />
-<a href="https://charlesreid1.com/contact">hire me</a> to build on it.</p>
+<a href="https://charlesreid1.com/contact">hire me</a> to build on it.
+</p>
 
 <p><b>are you benevolent and rich?
 </b><br />
