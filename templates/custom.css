@@ -23,7 +23,8 @@ a:focus {
 .btn-default {
   border: 1px solid {{ ACOLOR }};
   color: {{ ACOLOR }};
-  background-color: transparent;
+  /*background-color: transparent;*/
+  background-color: #000;
 }
 .btn-default:hover,
 .btn-default:focus {
