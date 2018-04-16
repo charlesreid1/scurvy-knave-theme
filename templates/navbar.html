@@ -3,6 +3,16 @@
     {% set ABOUT_SHORT = 'About' %}
 {% endif %}
 
+{% if LINKS_SHORT %}
+{% else %}
+    {% set LINKS_SHORT = 'Links' %}
+{% endif %}
+
+{% if CONTACT_SHORT %}
+{% else %}
+    {% set CONTACT_SHORT = 'Contact' %}
+{% endif %}
+
 <!-- Navigation -->
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
