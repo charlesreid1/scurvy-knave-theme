@@ -35,6 +35,7 @@ TEMPLATE_PAGES = {
 
 SITE_TITLE = "scurvy knave pelican theme"
 SITE_DESCRIPTION = "a simple single-color single-page theme for pelican"
+GITHUB_URL = "https://github.com/charlesreid1/survy-knave-theme"
 
 # ---
 
@@ -102,6 +103,9 @@ LINKS_DESCRIPTION = """
 </p>
 
 <p>Find the <a href="https://github.com/charlesreid1/scurvy-knave-theme">scurvy knave on github</a>.
+</p>
+
+<p>Find <a href="https://github.com/charlesreid1/scurvy-knave-theme">instructions on how to use scurvy knave</a>.
 </p>
 """
 
