@@ -2,6 +2,8 @@
 
 The scurvy knave is a pelican theme for a one-off one-page site.
 
+Also see [how-do-i-pelican](https://pages.charlesreid1.com/how-do-i-pelican).
+
 Pelican is designed for 1 file -> 1 page, 
 so assembling a single-page site from 
 different files is difficult.
