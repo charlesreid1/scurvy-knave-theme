@@ -2,6 +2,10 @@
 
 The scurvy knave is a pelican theme for a one-off one-page site.
 
+Source code: https://github.com/charlesreid1/scurvy-knave-theme
+
+Documentation: https://pages.charlesreid1.com/scurvy-knave-theme
+
 Pelican is designed for 1 file -> 1 page, 
 so assembling a single-page site from 
 different files is difficult.
@@ -24,14 +28,14 @@ This repo has three disparate branches:
 * `gh-pages` - a branch containing static HTML content to be served up via Github Pages
 
 The `gh-pages` branch can be viewed live at 
-[https://charlesreid1.github.io/scurvy-knave-theme](https://charlesreid1.github.io/scurvy-knave-theme).
+<https://pages.charlesreid1.com/scurvy-knave-theme>
 
 # Installation
 
 To install:
 
 ```
-git clone http://gitub.com/charlesreid1/scurvy-knave-theme
+git clone http://github.com/charlesreid1/scurvy-knave-theme.git
 
 pelican-themes -i scurvy-knave-theme   # install theme
 
