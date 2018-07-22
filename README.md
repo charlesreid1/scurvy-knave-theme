@@ -2,7 +2,9 @@
 
 The scurvy knave is a pelican theme for a one-off one-page site.
 
-Source code: https://github.com/charlesreid1/scurvy-knave-theme
+Source code (main repo): https://git.charlesreid1.com/charlesreid1/scurvy-knave-theme
+
+Source code (backup repo): https://github.com/charlesreid1/scurvy-knave-theme
 
 Also see [how-do-i-pelican](https://pages.charlesreid1.com/how-do-i-pelican).
 
